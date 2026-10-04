@@ -1,21 +1,11 @@
-﻿# Contributing to MAYA AI
+﻿# Contributing
 
-## Development workflow
+Keep contributions focused and test changes before pushing.
 
-1. Create a feature or improvement.
-2. Test the change locally.
-3. Review the Git diff.
-4. Commit with a clear message.
-5. Push the branch or approved change.
-
-## Commit style
-
-Use concise messages such as:
-
-feat: add new capability
-fix: resolve command issue
-docs: improve documentation
-refactor: simplify module
-test: add coverage
-
-Keep changes focused and easy to review.
+Preferred commit prefixes:
+- feat
+- fix
+- docs
+- refactor
+- test
+- chore
