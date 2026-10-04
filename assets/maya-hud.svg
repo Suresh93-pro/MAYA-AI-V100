@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+<defs>
+  <radialGradient id="bg"><stop stop-color="#07182b"/><stop offset="1" stop-color="#02050b"/></radialGradient>
+  <radialGradient id="core"><stop stop-color="#fff"/><stop offset=".18" stop-color="#55eaff"/><stop offset=".55" stop-color="#0b78ff" stop-opacity=".55"/><stop offset="1" stop-color="#00152b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="cyan"><stop stop-color="#4ffcff"/><stop offset="1" stop-color="#1784ff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#20bfff" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1400" height="620" fill="url(#bg)"/>
+<rect width="1400" height="620" fill="url(#grid)"/>
+<g fill="none" stroke="url(#cyan)" stroke-opacity=".65" filter="url(#glow)">
+ <ellipse cx="700" cy="320" rx="220" ry="75" transform="rotate(-18 700 320)" stroke-width="2"/>
+ <ellipse cx="700" cy="320" rx="250" ry="92" transform="rotate(22 700 320)" stroke-width="1.5"/>
+ <circle cx="700" cy="320" r="145" stroke-width="2"/>
+ <circle cx="700" cy="320" r="105" stroke-width="1" stroke-dasharray="7 10"/>
+</g>
+<circle cx="700" cy="320" r="145" fill="url(#core)"/>
+<circle cx="700" cy="320" r="34" fill="#dffcff" filter="url(#glow)"/>
+<circle cx="700" cy="320" r="12" fill="#fff"/>
+<g font-family="Segoe UI,Arial" fill="#7ff7ff">
+ <text x="72" y="92" font-size="24" letter-spacing="8">MAYA // NEURAL DESKTOP</text>
+ <text x="72" y="125" font-size="13" opacity=".7" letter-spacing="3">VOICE • AUTOMATION • LOCAL AI • WINDOWS</text>
+ <text x="72" y="545" font-size="12" opacity=".6">SYSTEM ONLINE</text>
+ <text x="1130" y="92" font-size="13" letter-spacing="3">V100 // FINAL</text>
+ <text x="1130" y="545" font-size="12" opacity=".6">READY FOR COMMAND</text>
+</g>
+<g fill="#4ffcff" opacity=".8">
+ <circle cx="460" cy="185" r="3"/><circle cx="1010" cy="205" r="3"/><circle cx="930" cy="465" r="2"/><circle cx="510" cy="455" r="2"/>
+</g>
+</svg>

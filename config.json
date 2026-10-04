@@ -1,0 +1,34 @@
+{
+  "assistant_name": "MAYA",
+  "wake_phrase": "hey maya",
+  "language": "en-IN",
+  "voice_rate": 178,
+  "voice_volume": 1.0,
+  "listen_timeout": 3,
+  "phrase_time_limit": 7,
+  "continuous_mode": true,
+  "ollama_enabled": false,
+  "ollama_url": "http://127.0.0.1:11434",
+  "ollama_model": "llama3:8b",
+  "confirm_destructive": true,
+  "app_aliases": {
+    "chrome": "chrome", "google chrome": "chrome", "browser": "chrome",
+    "edge": "msedge", "microsoft edge": "msedge",
+    "vs code": "code", "visual studio code": "code", "vscode": "code",
+    "notepad": "notepad.exe", "calculator": "calc.exe", "calc": "calc.exe",
+    "file explorer": "explorer.exe", "explorer": "explorer.exe", "task manager": "taskmgr.exe",
+    "command prompt": "cmd.exe", "cmd": "cmd.exe", "powershell": "powershell.exe",
+    "paint": "mspaint.exe", "settings": "ms-settings:", "spotify": "spotify:",
+    "discord": "discord:", "whatsapp": "whatsapp:", "steam": "steam:",
+    "word": "winword.exe", "microsoft word": "winword.exe", "excel": "excel.exe",
+    "microsoft excel": "excel.exe", "powerpoint": "powerpnt.exe", "microsoft powerpoint": "powerpnt.exe",
+    "terminal": "wt.exe", "outlook": "outlook.exe", "teams": "ms-teams:"
+  },
+  "websites": {
+    "youtube": "https://www.youtube.com", "google": "https://www.google.com", "gmail": "https://mail.google.com",
+    "github": "https://github.com", "chatgpt": "https://chatgpt.com", "instagram": "https://www.instagram.com",
+    "facebook": "https://www.facebook.com", "linkedin": "https://www.linkedin.com", "whatsapp web": "https://web.whatsapp.com",
+    "reddit": "https://www.reddit.com", "wikipedia": "https://www.wikipedia.org", "amazon": "https://www.amazon.in",
+    "srm": "https://www.srmist.edu.in", "netflix": "https://www.netflix.com", "spotify web": "https://open.spotify.com"
+  }
+}
