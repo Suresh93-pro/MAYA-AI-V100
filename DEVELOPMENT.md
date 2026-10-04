@@ -1,16 +1,21 @@
-﻿# MAYA AI V100 — Development Notes
+﻿# MAYA AI V100 - Development Notes
 
-## Current Features
-- Voice interaction
-- Text command execution
-- Windows automation
+MAYA AI is a modular Windows desktop assistant.
+
+## Core modules
+- Configuration
+- Speaker
+- Listener
+- Windows launcher
+- Command engine
 - Local AI brain
-- Animated neural HUD
+- Tkinter neural HUD
+
+## Interface
+- Animated neural core
 - System telemetry
-- Command activity stream
+- Command stream
+- Voice status
+- Text command input
 
-## Development
-MAYA AI is designed as a modular desktop assistant with separate components for configuration, speech, listening, launching, commands, and AI processing.
-
-## Version
-V100
+Version: V100
